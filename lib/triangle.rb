@@ -17,6 +17,8 @@ class Triangle
     elsif
       @length_1 != @length_2 && @length_2 != @length_3
       :scalene
+    else
+      nil
     end 
     
   end 
