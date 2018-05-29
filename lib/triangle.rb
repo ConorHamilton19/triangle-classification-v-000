@@ -23,6 +23,8 @@ class Triangle
   end 
   
   class TriangleError < StandardError
+    if @length_1 == 0 || @length_2 == 0 || @length_3 == 0
+    end
   end
   
 end
